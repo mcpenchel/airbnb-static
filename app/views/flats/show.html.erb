@@ -1,0 +1,7 @@
+<%= link_to "Go back to all the flats", flats_path %>
+<a href=""></a>
+
+
+<h2><%= @flat['name'] %></h2>
+<h3><%= "#{@flat['price']} #{@flat['priceCurrency']}" %></h3>
+<%= image_tag @flat['imageUrl'], width: 400, height: 400 %>
